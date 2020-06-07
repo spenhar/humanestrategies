@@ -112,9 +112,5 @@ function choose(){
 
     title = materialChoice + " " + placeChoice + " for " + personChoice;
 
-    document.getElementById("theBuilding").innerHTML = title;
+    document.getElementById("strategy").innerHTML = title;
 }
-
-// document.getElementById("theBuilding").style.color = "gray";
-
-// document.body.style.backgroundColor = "black";
