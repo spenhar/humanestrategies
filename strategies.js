@@ -4,7 +4,7 @@ var strategy = [
             ];
 
 function choose(){
-    var strategyChoice = person[Math.floor(Math.random()*strategy.length)];
+    var strategyChoice = strategy[Math.floor(Math.random()*strategy.length)];
             
     document.getElementById("strategy").innerHTML = strategy;
 }
