@@ -6,5 +6,5 @@ var strategy = [
 function choose(){
     var strategyChoice = strategy[Math.floor(Math.random()*strategy.length)];
             
-    document.getElementById("strategy").innerHTML = strategy;
+    document.getElementById("theStrategy").innerHTML = strategy;
 }
