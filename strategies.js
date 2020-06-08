@@ -1,4 +1,4 @@
-var strategy = [
+var strategies = [
             "Who is your mayor?",  
             "Can you protest without a sign?",
             "What else could you do other than call the police? Be prepared.",
@@ -15,7 +15,7 @@ var strategy = [
             ];
 
 function choose(){
-    var strategyChoice = strategy[Math.floor(Math.random()*strategy.length)];
-            
+    var strategyChoice = strategies[Math.floor(Math.random()*strategies.length)];
+    strategy = strategyChoice;   
     document.getElementById("theStrategy").innerHTML = strategy;
 }
