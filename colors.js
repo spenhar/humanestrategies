@@ -27,6 +27,7 @@ function colortime(){
 
             // STYLE THE PAGE
             document.getElementById("theStrategy").style.color = p.colors[0].hex.value;
+            document.getElementById("heading").style.color = p.colors[0].hex.value;
             document.body.style.backgroundColor = p.colors[1].hex.value;
 
             //STYLE THE BUTTON
