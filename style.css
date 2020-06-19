@@ -126,7 +126,7 @@ footer {
   #about.visible {
     display: block;
     position: fixed;
-    bottom: 0;
+    bottom: 3em;
     left: 0;
     padding: 1em;
     margin: 1em;
