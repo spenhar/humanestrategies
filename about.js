@@ -1,9 +1,11 @@
 (function() {
-  document.addEventListener('click', function(event) {
-    if (event.target.tagName !== 'A') {
-      window.location.reload();
-    }
-  });
+
+// THIS WAS MAKING THE WHOLE PAGE TAPPABLE
+//   document.addEventListener('click', function(event) {
+//     if (event.target.tagName !== 'A') {
+//       window.location.reload();
+//     }
+//   });
 
   document.querySelector('.about-toggle').addEventListener('click', function(event) {
     event.preventDefault();
